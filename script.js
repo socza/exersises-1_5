@@ -9,7 +9,7 @@ console.log(`${x} ${y}`);
 
 	// Pierwsza z możliwość zapisu w arrow function.
 	
-	function multiply(a, b = '1') { // tu ma być backtick, średnik pojedynczy - czy w ogóle nie bez nich ???
+	function multiply(a, b = '1') { // tu ma być backtick ? średnik pojedynczy ? - czy w ogóle bez nich ???
 
 		return a * b;
 	
@@ -29,7 +29,7 @@ console.log(`${x} ${y}`);
 
 	// Trzecia z możliwości zapisu w arrow function,
 	// jeszcze bardziej zwięźle :).
-	// Moim zdaniem chyba najlepszy zapis z możliwych
+	// Moim zdaniem chyba najlepszy zapis z możliwych.
 
 	const myMultiply = (a, b = 1) => console.log(a * b);
 	myMultiply(9);
@@ -58,4 +58,3 @@ console.log(`${x} ${y}`);
 	const diffData = [1, 4, 'Iwona', false, 'Nowak'];
 	const [ , ,firstName, ,lastName] = diffData;
 	console.log(`Hello, my name is ${firstName} ${lastName}`);
-
